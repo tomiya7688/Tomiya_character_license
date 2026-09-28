@@ -40,10 +40,3 @@ Tomiya Character License v1.0.1 では、商用・非商用を問わず、たと
 命名やモデル由来の表記については [NAMING_GUIDE.md](NAMING_GUIDE.md) を参照してください。
 
 ライセンス設計の意図については [LICENSE_INTENT.md](LICENSE_INTENT.md) を参照してください。
-
-## 関連ライセンス
-
-別リポジトリで管理される素材には、そのリポジトリで明示されたライセンスが適用されます。
-
-- [Obake Character License](https://github.com/tomiya7688/Obake_Lisense)
-- [すーぱーあいこん / MIT License](https://github.com/tomiya7688/super_icon_license)
