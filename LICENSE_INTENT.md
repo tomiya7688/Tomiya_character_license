@@ -1,62 +1,43 @@
 # License Intent
 
-This repository separates **naming guidance**, **character identity**, and
-**actual asset licensing**.
+この文書は、Tomiya Character License の設計意図を説明するためのものです。法的な利用条件そのものは [`LICENSE`](LICENSE) が定めます。
 
-This document is explanatory only. It does not grant rights to an asset whose
-license has not yet been decided.
+## 方針
 
-## Why licenses are per character / asset set
+かどか・まるを除く Tomiya7688 のキャラクターについて、個別にバラバラのライセンスを用意するのではなく、**Tomiya Character License v1.0** に統一します。
 
-Character artwork is not the same kind of thing as application source code.
+目的は、キャラクターIPを強く囲い込むことではありません。
 
-Different characters may have different goals:
+基本方針は次のとおりです。
 
-- some may be intentionally generic and freely reusable,
-- some may have an identity that should remain recognizable,
-- some may need rules about official/community presentation,
-- some may be tied to model lineage or other distributed artifacts.
+- 商用・非商用を問わず自由に使える
+- 改変、二次創作、設定変更、名称変更ができる
+- クローズドソースやプロプライエタリ作品にも組み込める
+- 組み込んだ作品全体を同じライセンスにする必要はない
+- 利用者が独自に作った部分の権利は、その利用者に残る
+- クレジットは必須ではない
+- 成人向け、暴力、残酷、ホラーなどのジャンル制限を設けない
 
-For that reason, this repository does not force every future Tomiya character
-into one license.
+一方で、キャラクターそのものについては最低限の保護を残します。
 
-## Wise Misk / 賢者ミスク
+- 原作者・権利者を偽らない
+- 公式作品・公式監修等を無断で名乗らない
+- 元キャラクターそのものを独占したと主張しない
+- 他の利用者による正当な利用を妨げない
+- 公式素材そのものを主目的とした有料素材集として再販売しない
 
-Wise Misk is currently used as the development Player for the AI Game Player
-project.
+要するに、**作品は閉じてもよいが、元キャラクターそのものを囲い込んではいけない**という考え方です。
 
-Its final artwork license is intentionally undecided.
+## 例外
 
-The reason is not to prevent reuse. The project wants to decide the right
-balance between:
+「かどか（Kadoka）」と「まる（maru）」は、専用の [Obake Character License](https://github.com/tomiya7688/Obake_Lisense) で管理します。
 
-- free reuse and modification,
-- community fine-tunes and renamed models,
-- character identity,
-- official/community distinction,
-- attribution and redistribution.
+「すーぱーあいこん」は別リポジトリで MIT License により公開しています。
 
-The AI Game Player 1.0 release does not need that decision because it ships
-with the MIT-licensed Super Icon asset instead.
+## 過去の許諾
 
-## Naming and model identity
+Tomiya Character License は、以前に別のライセンスで適法に与えられた許諾を遡って取り消すことを目的としません。
 
-A community model is encouraged to use its own technical model name.
+## 正本
 
-Descriptions such as "fine-tuned from Wise Misk" are useful and welcome.
-
-Player-visible name/image and model identity are separate concepts. This avoids
-confusing a community model with an official artifact.
-
-## Future character-oriented license
-
-A future open/free character license may be designed using lessons from the
-Obake Character License while remaining appropriate for other characters.
-
-That design is separate from the AI Game Player 1.0 release.
-
-## Legal effect
-
-This file does not replace any license.
-
-Each published asset set must explicitly identify its applicable license.
+Tomiya Character License の日本語版 [`LICENSE`](LICENSE) が正本です。英語版は参考訳です。
