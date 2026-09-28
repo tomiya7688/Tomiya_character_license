@@ -1,0 +1,59 @@
+name: Publish Tomiya Character License v1.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-v1.0.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish v1.0 GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_SHA: d7d0e9325b8a59b9cf821a096b16321ccb7c718e
+        run: |
+          if gh release view v1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release v1.0 already exists."
+            exit 0
+          fi
+
+          cat > /tmp/release-notes.md <<'EOF'
+          # Tomiya Character License v1.0
+
+          First formal release of the unified Tomiya character license.
+
+          ## Scope
+
+          Unless explicitly stated otherwise, character assets in this repository are licensed under Tomiya Character License v1.0.
+
+          Current covered characters:
+          - Rim
+          - gohon
+          - Wise Misk / 賢者ミスク
+
+          Kadoka and maru remain separately licensed under Obake Character License v1.2.
+
+          ## Main principles
+
+          - Commercial and non-commercial use are permitted.
+          - Modification, derivative works, setting changes, and name changes are permitted.
+          - Closed-source and proprietary works are permitted.
+          - Works incorporating a character do not need to use the same license or become open source.
+          - Users retain rights in their own original code, artwork, music, stories, models, settings, and other additions.
+          - Credit is optional.
+          - No genre or audience restrictions are imposed by this license.
+          - The original character itself may not be falsely claimed as exclusive property.
+          - False claims of authorship, ownership, or official endorsement are prohibited.
+          - Paid resale of substantially unchanged official materials as an asset pack is prohibited.
+
+          The Japanese `LICENSE` is the canonical text. `LICENSE.en.md` is an English translation.
+          EOF
+
+          gh release create v1.0             --repo "$GITHUB_REPOSITORY"             --target "$TARGET_SHA"             --title "Tomiya Character License v1.0"             --notes-file /tmp/release-notes.md
