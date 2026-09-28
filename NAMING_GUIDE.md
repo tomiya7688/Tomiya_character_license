@@ -1,14 +1,14 @@
 # Character and model naming guide
 
-This is a naming recommendation for community clarity. It does not determine
-or override the license of any character artwork.
+この文書は、キャラクター名・プレイヤー表示名・技術的なモデル名を区別するための推奨事項です。
 
-## Player identity and model identity are different
+ライセンス条件そのものは [Tomiya Character License v1.0](LICENSE) を参照してください。
 
-A character/player profile can have a name and image independently from the
-technical model artifact.
+## キャラクター名とモデル名は別
 
-For example:
+キャラクター／プレイヤープロフィールの名前や画像と、技術的なモデル成果物の名称は別に扱えます。
+
+例:
 
 ```text
 Player profile
@@ -22,40 +22,41 @@ Model artifact
   publisher: community author
 ```
 
-The reverse is also fine: an official/default model may be used while the user
-changes only the player name and image.
+公式モデルを使用しながら、プレイヤー表示名や画像だけ変更することもできます。
 
-## Community fine-tunes
+## コミュニティモデル
 
-For a fine-tuned or otherwise modified model, a distinct model name is
-recommended.
+ファインチューニング、追加学習、変換などを行ったモデルには、元モデルと区別できる独自の技術名を付けることを推奨します。
 
-Good examples:
+例:
 
 - `My-Misk-Tune-2B`
 - `GameFox-2B`
 - `Alice-RPG-Adapter`
 - `GameFox-2B — fine-tuned from Wise Misk`
 
-Descriptive origin statements such as:
+次のような由来表記も問題ありません。
 
-- "fine-tuned from Wise Misk"
-- "Wise Misk-derived"
-- "based on the default Wise Misk model"
+- “fine-tuned from Wise Misk”
+- “Wise Misk-derived”
+- “based on the default Wise Misk model”
 
-are welcome.
+## キャラクター素材
 
-## Artwork
+Rim、gohon、賢者ミスクその他の対象キャラクター素材は、原則として Tomiya Character License v1.0 に従います。
 
-Artwork usage follows the license declared for that specific character/asset
-set. A community model does not need to keep the character's original name
-just because it uses artwork whose license permits that use.
+ライセンス上、キャラクター名や設定の変更も可能です。
 
-Wise Misk's final artwork license is currently undecided; do not infer MIT from
-this naming guide.
+ただし、改変版やコミュニティ版を公式版であるかのように表示してはいけません。
 
-## Official/community metadata
+## Official / Community の区別
 
-Applications and model catalogs should identify official/community status,
-publisher, base model, derivation/provenance, and artifact hash separately from
-the player-visible name and image.
+アプリやモデルカタログでは、可能なら次の情報をプレイヤー表示名とは別に管理することを推奨します。
+
+- official / community
+- publisher
+- base model
+- derivation / provenance
+- artifact hash
+
+これにより、自由な改変や再利用を妨げずに、公式成果物とコミュニティ成果物を区別しやすくなります。
