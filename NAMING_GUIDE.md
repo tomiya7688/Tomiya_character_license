@@ -2,7 +2,7 @@
 
 この文書は、キャラクター名・プレイヤー表示名・技術的なモデル名を区別するための推奨事項です。
 
-ライセンス条件そのものは [Tomiya Character License v1.0](LICENSE) を参照してください。
+ライセンス条件そのものは [Tomiya Character License v1.0.1](LICENSE) を参照してください。
 
 ## キャラクター名とモデル名は別
 
@@ -43,7 +43,7 @@ Model artifact
 
 ## キャラクター素材
 
-Rim、gohon、賢者ミスクその他の対象キャラクター素材は、原則として Tomiya Character License v1.0 に従います。
+このリポジトリの対象キャラクター素材は、個別指定がない限り Tomiya Character License v1.0.1 に従います。
 
 ライセンス上、キャラクター名や設定の変更も可能です。
 
