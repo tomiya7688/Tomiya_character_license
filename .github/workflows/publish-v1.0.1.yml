@@ -1,0 +1,43 @@
+name: Publish Tomiya Character License v1.0.1
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-v1.0.1.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish v1.0.1 GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_SHA: e0ff8d2be8435c812333deb0f0a787a786c40048
+        run: |
+          if gh release view v1.0.1 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release v1.0.1 already exists."
+            exit 0
+          fi
+
+          cat > /tmp/release-notes.md <<'EOF'
+          # Tomiya Character License v1.0.1
+
+          Editorial clarification of the license scope.
+
+          ## Changes
+
+          - Removed character-specific exclusions from the license text.
+          - Simplified the scope to: unless a different license is explicitly specified, the license applies to characters and official materials published in this repository.
+          - Moved references to separately managed licenses out of the legal scope text and into README-related links.
+          - Updated the English translation, README, license intent, and naming guide accordingly.
+
+          This patch does not intentionally narrow or expand the substantive permissions granted by v1.0.
+          The Japanese `LICENSE` remains the canonical text.
+          EOF
+
+          gh release create v1.0.1             --repo "$GITHUB_REPOSITORY"             --target "$TARGET_SHA"             --title "Tomiya Character License v1.0.1"             --notes-file /tmp/release-notes.md
