@@ -1,51 +1,56 @@
 # Tomiya Character License
 
-This repository records licensing information and naming guidance for Tomiya7688 character assets.
+Tomiya7688 が公開するキャラクター素材の共通ライセンス置き場です。
 
-Why the licenses are intentionally separated is explained in `LICENSE_INTENT.md`. Actual permissions always come from the license declared for each asset set.
+## ライセンス
 
-## Important: licenses are per character / asset set
+**かどか（Kadoka）と まる（maru）を除く、このリポジトリのキャラクター素材は、原則として [Tomiya Character License v1.0](LICENSE) の対象です。**
 
-The repository's root MIT `LICENSE` applies to the repository documentation
-and to assets that explicitly opt into it. It does **not** automatically decide
-the license of every future Tomiya character asset.
+- 日本語・正本: [`LICENSE`](LICENSE)
+- English translation: [`LICENSE.en.md`](LICENSE.en.md)
 
-Each character/asset set should declare its own license before the actual asset
-files are published.
+翻訳との間に解釈上の相違がある場合は、日本語版が優先されます。
 
-## Wise Misk / 賢者ミスク
+### 現在の対象キャラクター
 
-Wise Misk is currently used as the development/default player character for the
-AI Game Player project.
+| Character | License |
+| --- | --- |
+| Rim | Tomiya Character License v1.0 |
+| gohon | Tomiya Character License v1.0 |
+| 賢者ミスク / Wise Misk | Tomiya Character License v1.0 |
 
-**The final asset license for Wise Misk is not fixed yet.**
+### 別ライセンス
 
-The actual Wise Misk image assets have not been published in this repository,
-so their license should be decided before they are added here.
+- かどか（Kadoka）: [Obake Character License v1.2](https://github.com/tomiya7688/Obake_Lisense)
+- まる（maru）: [Obake Character License v1.2](https://github.com/tomiya7688/Obake_Lisense)
+- すーぱーあいこん: [MIT License](https://github.com/tomiya7688/super_icon_license)
 
-Community model naming guidance may still refer to Wise Misk as an origin or
-player profile; that naming guidance is separate from the future artwork
-license.
+## ざっくりできること
 
-## MIT character assets
+Tomiya Character License v1.0 では、商用・非商用を問わず、たとえば次の利用ができます。
 
-Assets that explicitly declare MIT may be used, copied, modified,
-redistributed, sublicensed, and sold under the terms of the MIT License.
+- 改変、二次創作、設定変更、名称変更
+- ゲーム、アプリ、Webサイト、動画、配信、書籍等への利用
+- グッズ、製品、有料作品への利用
+- 再配布
+- クローズドソース／プロプライエタリな作品への組み込み
 
-The "すーぱーあいこん" asset set is maintained separately and is currently
-MIT-licensed:
+作品全体をオープンソースや同一ライセンスにする必要はありません。自作のコード、画像、音楽、設定、モデル等には独自の利用条件を設定できます。
 
-https://github.com/tomiya7688/super_icon_license
+一方で、次のようなことはできません。
 
-## Separate-license characters
+- 元のキャラクターそのものを自分だけの独占物として扱う
+- 他の人によるライセンス上の正当な利用を妨げる
+- 自分が原作者・権利者であると偽る
+- 公式作品、公式監修、公式認定などと無断で表示する
+- 公式素材そのものを主目的とする有料素材集として再販売する
 
-- Kadoka: Obake License
-- Maru: Obake License
+詳しい条件は必ず [ライセンス本文](LICENSE) を確認してください。
 
-These characters are not relicensed by this repository.
+## 素材
 
-## Naming
+現在このリポジトリには、Rim、gohon、賢者ミスクの画像素材を掲載しています。
 
-See `NAMING_GUIDE.md`. Naming recommendations are for avoiding confusion
-between player profiles, official models, and community fine-tunes; they do not
-silently change an asset's declared license.
+命名やモデル由来の表記については [NAMING_GUIDE.md](NAMING_GUIDE.md) を参照してください。
+
+ライセンス設計の意図については [LICENSE_INTENT.md](LICENSE_INTENT.md) を参照してください。
