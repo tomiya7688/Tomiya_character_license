@@ -1,4 +1,4 @@
-# Tomiya Character License v1.0
+# Tomiya Character License v1.0.1
 
 > **Canonical version**  
 > This document is an English translation of the `Tomiya Character License`. The Japanese version in [`LICENSE`](LICENSE) is the canonical version. If there is any inconsistency or difference in interpretation between this translation and the Japanese version, the Japanese version prevails. The canonical text is maintained in [`tomiya7688/Tomiya_character_lisence`](https://github.com/tomiya7688/Tomiya_character_lisence).
@@ -10,14 +10,6 @@ The purpose of this license is to allow characters to be freely used, modified, 
 ## 1. Scope
 
 Unless a different license is explicitly specified, this license applies to characters and official materials published in this repository.
-
-Characters currently covered by this license include:
-
-- Rim
-- gohon
-- Wise Misk (賢者ミスク)
-
-Kadoka (かどか) and maru (まる) are not covered by this license. They are governed separately by the **Obake Character License**.
 
 ## 2. Definitions
 
@@ -172,7 +164,7 @@ Rights or permissions lawfully obtained by third parties before the violation ar
 
 ## 15. Version
 
-This document is **Tomiya Character License v1.0**.
+This document is **Tomiya Character License v1.0.1**.
 
 New versions of this license may be published in the future.
 
