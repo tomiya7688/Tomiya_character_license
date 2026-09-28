@@ -4,30 +4,16 @@ Tomiya7688 が公開するキャラクター素材の共通ライセンス置き
 
 ## ライセンス
 
-**かどか（Kadoka）と まる（maru）を除く、このリポジトリのキャラクター素材は、原則として [Tomiya Character License v1.0](LICENSE) の対象です。**
+**このリポジトリで公開されるキャラクター素材は、個別に別の指定がない限り [Tomiya Character License v1.0.1](LICENSE) の対象です。**
 
 - 日本語・正本: [`LICENSE`](LICENSE)
 - English translation: [`LICENSE.en.md`](LICENSE.en.md)
 
 翻訳との間に解釈上の相違がある場合は、日本語版が優先されます。
 
-### 現在の対象キャラクター
-
-| Character | License |
-| --- | --- |
-| Rim | Tomiya Character License v1.0 |
-| gohon | Tomiya Character License v1.0 |
-| 賢者ミスク / Wise Misk | Tomiya Character License v1.0 |
-
-### 別ライセンス
-
-- かどか（Kadoka）: [Obake Character License v1.2](https://github.com/tomiya7688/Obake_Lisense)
-- まる（maru）: [Obake Character License v1.2](https://github.com/tomiya7688/Obake_Lisense)
-- すーぱーあいこん: [MIT License](https://github.com/tomiya7688/super_icon_license)
-
 ## ざっくりできること
 
-Tomiya Character License v1.0 では、商用・非商用を問わず、たとえば次の利用ができます。
+Tomiya Character License v1.0.1 では、商用・非商用を問わず、たとえば次の利用ができます。
 
 - 改変、二次創作、設定変更、名称変更
 - ゲーム、アプリ、Webサイト、動画、配信、書籍等への利用
@@ -54,3 +40,10 @@ Tomiya Character License v1.0 では、商用・非商用を問わず、たと�
 命名やモデル由来の表記については [NAMING_GUIDE.md](NAMING_GUIDE.md) を参照してください。
 
 ライセンス設計の意図については [LICENSE_INTENT.md](LICENSE_INTENT.md) を参照してください。
+
+## 関連ライセンス
+
+別リポジトリで管理される素材には、そのリポジトリで明示されたライセンスが適用されます。
+
+- [Obake Character License](https://github.com/tomiya7688/Obake_Lisense)
+- [すーぱーあいこん / MIT License](https://github.com/tomiya7688/super_icon_license)
