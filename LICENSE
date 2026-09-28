@@ -1,4 +1,4 @@
-# Tomiya Character License v1.0
+# Tomiya Character License v1.0.1
 
 > **正本について**  
 > 本文書（日本語版）が `Tomiya Character License` の正本です。英語版その他の翻訳との間に解釈上の相違がある場合は、本日本語版が優先されます。正本は [`tomiya7688/Tomiya_character_lisence`](https://github.com/tomiya7688/Tomiya_character_lisence) で管理されます。
@@ -10,14 +10,6 @@
 ## 1. 適用範囲
 
 個別に別のライセンスが明示されていない限り、このリポジトリで公開されるキャラクターおよびその公式素材には、本ライセンスが適用されます。
-
-現在、このライセンスの対象には次のキャラクターが含まれます。
-
-- Rim
-- gohon
-- 賢者ミスク（Wise Misk）
-
-「かどか（Kadoka）」および「まる（maru）」は本ライセンスの対象外です。これらには、別途公開されている **Obake Character License** が適用されます。
 
 ## 2. 定義
 
@@ -178,7 +170,7 @@
 
 ## 15. バージョン
 
-この文書は `Tomiya Character License v1.0` です。
+この文書は `Tomiya Character License v1.0.1` です。
 
 将来、新しい版が公開されることがあります。
 
