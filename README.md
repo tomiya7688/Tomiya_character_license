@@ -35,7 +35,14 @@ Tomiya Character License v1.0.1 では、商用・非商用を問わず、たと
 
 ## 素材
 
-現在このリポジトリには、Rim、gohon、賢者ミスクの画像素材を掲載しています。
+このリポジトリで公開している素材は、個別に別の指定がない限り、すべて上記のライセンスが適用されます。
+
+| キャラクター | 素材 |
+| --- | --- |
+| Rim | Rimの画像素材 |
+| gohon | gohonの画像素材 |
+| 賢者ミスク | 賢者ミスクの画像素材 |
+| アトラス君 | [`Atras.png`（1920×1920）](Atras.png)、[`Atras_original.png`（64×64）](Atras_original.png) |
 
 命名やモデル由来の表記については [NAMING_GUIDE.md](NAMING_GUIDE.md) を参照してください。
 
