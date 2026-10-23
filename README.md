@@ -44,6 +44,19 @@ Tomiya Character License v1.0.1 では、商用・非商用を問わず、たと
 | 賢者ミスク | 賢者ミスクの画像素材 |
 | アトラス君 | [`Atras.png`（1920×1920）](Atras.png)、[`Atras_original.png`（64×64）](Atras_original.png) |
 
+## 公式素材の真正性
+
+公式素材には安定した asset ID と SHA-256 を割り当て、GitHub Actions で
+暗号署名付き Artifact Attestation を生成します。
+
+例:
+
+```bash
+gh attestation verify Rim.png --repo tomiya7688/Tomiya_character_license
+```
+
+manifest、原本との対応、検証方法、C2PA の扱いは [PROVENANCE.md](PROVENANCE.md) を参照してください。
+
 命名やモデル由来の表記については [NAMING_GUIDE.md](NAMING_GUIDE.md) を参照してください。
 
 ライセンス設計の意図については [LICENSE_INTENT.md](LICENSE_INTENT.md) を参照してください。
