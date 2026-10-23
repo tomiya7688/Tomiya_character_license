@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "asset_set": "tomiya-character-official-assets",
+  "creator": "tomiya7688",
+  "license": {
+    "name": "Tomiya Character License v1.0.1",
+    "canonical_url": "https://github.com/tomiya7688/Tomiya_character_license/blob/main/LICENSE"
+  },
+  "assets": [
+    {
+      "id": "tomiya.rim.original",
+      "path": "Rim_original.png",
+      "role": "original",
+      "family": "rim"
+    },
+    {
+      "id": "tomiya.rim.png",
+      "path": "Rim.png",
+      "role": "distribution",
+      "family": "rim",
+      "source_asset_id": "tomiya.rim.original"
+    },
+    {
+      "id": "tomiya.rim.aseprite",
+      "path": "Rim.aseprite",
+      "role": "editable-source",
+      "family": "rim",
+      "source_asset_id": "tomiya.rim.original"
+    },
+    {
+      "id": "tomiya.gohon.original",
+      "path": "gohon_original.png",
+      "role": "original",
+      "family": "gohon"
+    },
+    {
+      "id": "tomiya.gohon.png",
+      "path": "gohon.png",
+      "role": "distribution",
+      "family": "gohon",
+      "source_asset_id": "tomiya.gohon.original"
+    },
+    {
+      "id": "tomiya.wise-misk.original",
+      "path": "賢者ミスクorg.png",
+      "role": "original",
+      "family": "wise-misk"
+    },
+    {
+      "id": "tomiya.wise-misk.png",
+      "path": "賢者ミスク.png",
+      "role": "distribution",
+      "family": "wise-misk",
+      "source_asset_id": "tomiya.wise-misk.original"
+    },
+    {
+      "id": "tomiya.atras.original",
+      "path": "Atras_original.png",
+      "role": "original",
+      "family": "atras"
+    },
+    {
+      "id": "tomiya.atras.png",
+      "path": "Atras.png",
+      "role": "distribution",
+      "family": "atras",
+      "source_asset_id": "tomiya.atras.original"
+    }
+  ]
+}
